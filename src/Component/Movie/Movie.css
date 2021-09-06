@@ -1,0 +1,39 @@
+
+.movi{
+    text-align: center;
+    /* position: fixed;
+    width: 300px;
+    max-width: 70%;
+    height: 100%;
+    right: 0px;
+    top: 0;
+    z-index: 200;
+    background-color: yellow;
+    transition: transform 0.3s ease-out; */
+}
+
+.movi-image{
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.movi-image img{
+    width: 100%;
+}
+
+.movi h2{
+    text-align: center;
+}
+
+.arrow{
+    color: #14142B;
+    font-size: 35px;
+    float: left;
+    margin: 0px 0px 200px;
+    
+}
+
+.movi p{
+    padding: 0px 80px;
+}

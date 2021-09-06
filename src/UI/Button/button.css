@@ -1,0 +1,17 @@
+.button{
+    background-color:#5F2EEA;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    cursor:pointer;
+}
+
+@media only screen and (max-width: 800px){
+    .button{
+        width: 120px;
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,107 @@
+.mov{
+    display: flex;
+    align-items: center;
+}
+.mov-image{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.mov-image img{
+    width: 100%;
+}
+
+
+.mov-details {
+    padding: 0px 80px;
+    align-items: center;
+}
+
+.mov h2{
+    padding: 0px;
+}
+
+
+.mov-icons{
+    display: flex;
+    align-items: center;
+}
+
+.mov-icons p{
+    display: flex;
+    align-items: center;
+    padding: 0px 50px 0px 0px;
+}
+
+.ico{
+    font-size: 25px;
+}
+
+.rate{
+    color: #4E4B66;
+    margin-left: 10px;
+}
+
+.cont{
+    display: flex;
+    flex: 25%;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.similar{
+    padding-top: 50px;
+}
+
+
+@media only screen and (max-width: 800px){
+    .mov{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mov-details {
+        padding: 0px 0px;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    .plot {
+        padding: 0px 80px;
+        align-items: center;
+    }
+    .mov-details h2{
+        padding: 0px 80px;
+    }
+    .mov-icons{
+       padding: 0px 0px 0px 80px;
+       
+    }
+    
+    .mov-icons p{
+        margin-left: 5px;
+        padding: 0px 0px 0px 0px;
+    }
+    .rate{
+        color: #4E4B66;
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    .ico{
+        font-size: 15px;
+    }
+
+    .watch{
+        padding: 0px 0px 0px 80px;
+    }
+    .cont{
+        display: flex;
+        flex: 50%;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+

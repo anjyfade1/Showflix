@@ -1,0 +1,30 @@
+.explore{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.input{
+    outline: none;
+    border:none;
+    width: 700px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #EFF0F7;
+    padding: 10px 20px;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .input{
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .input{
+        width: 300px;
+    }
+}
+

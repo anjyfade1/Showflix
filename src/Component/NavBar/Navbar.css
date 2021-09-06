@@ -1,0 +1,30 @@
+.Navbar{
+    padding: 50px;
+}
+
+.nav-info{
+    padding-top: 20px;
+}
+
+.search, .heart{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding: 0px 20px; */
+}
+
+.search-icon{
+    background-color: #5F2EEA;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.heart-icon{
+    font-size: 25px;
+}
+
+.search-wrd, .heart-wrd{
+    font-size: 20px;
+    font-weight: bold;
+}

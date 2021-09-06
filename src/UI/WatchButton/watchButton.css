@@ -1,0 +1,19 @@
+.Wbutton{
+    background-color:#5F2EEA;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    cursor:pointer;
+}
+
+@media only screen and (max-width: 600px){
+    .Wbutton{
+       
+        width: 100px;
+       
+    }
+}
+
